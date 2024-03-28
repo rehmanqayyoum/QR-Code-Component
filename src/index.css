@@ -3,8 +3,8 @@
   --lightGrey: hsl(212, 45%, 89%);
   --grayishBlue: hsl(220, 15%, 55%);
   --darkBlue: hsl(218, 44%, 22%);
-  --darkNavy: #1F314F;
-  --textGrey: #7D889E;
+  --darkNavy: #1f314f;
+  --textGrey: #7d889e;
 }
 
 body {
@@ -27,7 +27,6 @@ body {
 
 .qr-container {
   background-color: var(--white);
-  /* padding: 16px; */
   border-radius: 20px;
   width: 320px;
 }
@@ -51,16 +50,17 @@ body {
 }
 
 .title {
-    font-size: 22px;
-    font-weight: 700;
-    color: var(--darkNavy);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--darkNavy);
 }
 
 .paragraph {
-    font-weight: 400;
-    color: var(--textGrey);
+  font-weight: 400;
+  color: var(--textGrey);
 }
 
+/* Media Query */
 @media screen and (max-width: 360px) {
   .qr-container {
     max-width: 80%;
@@ -68,5 +68,5 @@ body {
 
   .title {
     font-size: 18px;
-}
+  }
 }
